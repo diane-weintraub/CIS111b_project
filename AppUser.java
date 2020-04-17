@@ -22,6 +22,7 @@ public abstract class AppUser {
 	protected long IDnumber;
 	protected String address;
 	protected long phoneNumber;
+	//protected ?? date;
 	
 	////////////////////////////////////////////  get Methods  ////////////////////////////////////////////  
 	
@@ -95,6 +96,8 @@ public abstract class AppUser {
 	public String toString() {
 		return "AppUser [email=" + email + ", password=" + password + ", IDnumber=" + IDnumber + 
 				", address=" + address + ", phoneNumber=" + phoneNumber + "]";
+	//public int timeElapsed() {
+		//return number of weeks? months? since request
 	}
 	
 	
