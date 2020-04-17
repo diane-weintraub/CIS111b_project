@@ -26,6 +26,23 @@ public abstract class AppUser {
 	////////////////////////////////////////////  get Methods  ////////////////////////////////////////////  
 	
 	/**
+	* The constructor sets the app user's identifying information:  
+	* email of user, a password, address, and phone number.
+	* <p>
+	* @param email
+	* @param password
+	* @param address
+	* @param phoneNumber
+	*/
+	
+	public AppUser(String email, String password, String address, long phoneNumber) {
+		this.email = email;
+		this.password = password;
+		this.address = address;
+		this.phoneNumber = phoneNumber;
+	}
+	
+	/**
 	 * @return the email
 	 */
 	public String getEmail() {
