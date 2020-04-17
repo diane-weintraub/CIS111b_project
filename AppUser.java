@@ -26,12 +26,14 @@ public abstract class AppUser {
 	////////////////////////////////////////////  get Methods  ////////////////////////////////////////////  
 	
 	/**
+	 * The getEmail method returns the user's email.
 	 * @return the email
 	 */
 	public String getEmail() {
 		return email;
 	}
 	/**
+	 * The getPassword method returns the password.
 	 * @return the password
 	 */
 	public String getPassword() {
@@ -44,13 +46,17 @@ public abstract class AppUser {
 		return IDnumber;
 	}
 	/**
+	 * The getAddress method returns the user's 
+	 * address.
 	 * @return the address
 	 */
 	public String getAddress() {
 		return address;
 	}
 	/**
-	 * @return the phoneNumber
+	 * The getPhoneNumber method returns the user's
+	 * phone number.
+	 * @return the phone number
 	 */
 	public long getPhoneNumber() {
 		return phoneNumber;
@@ -59,12 +65,16 @@ public abstract class AppUser {
 	////////////////////////////////////////////  set Methods  ////////////////////////////////////////////  
 	
 	/**
+	 * The setEmail method allows the user to change 
+	 * the email.
 	 * @param email the email to set
 	 */
 	public void setEmail(String email) {
 		this.email = email;
 	}
 	/**
+	 * The setPassword method allow the user to change
+	 * the password.
 	 * @param password the password to set
 	 */
 	public void setPassword(String password) {
@@ -77,17 +87,22 @@ public abstract class AppUser {
 		IDnumber = iDnumber;
 	}
 	/**
+	 * The setAddress method allows the user to set or
+	 * change the address.
 	 * @param address the address to set
 	 */
 	public void setAddress(String address) {
 		this.address = address;
 	}
 	/**
-	 * @param phoneNumber the phoneNumber to set
+	 * The setPhoneNumber method allows the user
+	 * to set or change the phone number.
+	 * @param phoneNumber the phone number to set	 
 	 */
 	public void setPhoneNumber(long phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
+
 	
 	////////////////////////////////////////  Additional Methods  /////////////////////////////////////////  
 	
